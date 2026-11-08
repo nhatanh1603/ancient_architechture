@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+  background-color: #ffff99;
+}
+.navigator {
+  text-align: center;
+  margin-top: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav-decor {
+  font-weight:600;
+  color:#008080;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.image-header{
+    text-align: center;
+}
+.image-header>img{
+    width: 75%;
+    height: auto;
+}
+body {
+    background-color: #e8e3cf; 
+    font-family: Arial, sans-serif;
+    color: #000;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.meta {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.author {
+    color: #3b3bff;
+}
+
+/* Hình ảnh bài viết */
+.post-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.content {
+    font-size: 13.5px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+
+.content::first-letter {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #8c6239;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-comment {
+    flex: 1.2; 
+}
+
+.btn-view {
+    flex: 1;
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 14px;
+}
+footer{
+    text-align:center;
+    margin-top: 20px;
+}
